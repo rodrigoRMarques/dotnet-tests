@@ -12,10 +12,6 @@ public class Program
 	public static void Incremental()
 	{
         Console.WriteLine("Incremental");
-		for(int i = 0; i < 10; i++)
-		{
-			//Console.WriteLine(i);
-		}
 				
 		int number = 0;
 		Console.WriteLine(number);
