@@ -1,3 +1,5 @@
+//What's the output of this code? Why?
+
 using System;
 using System.Collections.Generic;
 
@@ -7,6 +9,7 @@ public class Program
     {
         Incremental();
         Delegate();
+        Array();
     }
 
     public static void Incremental()
@@ -34,5 +37,11 @@ public class Program
         {
             printer();
         }
+    }
+
+    public static void Array()
+    {
+        int[] i = new int[0];
+        Console.WriteLine(i[0]);
     }
 }
