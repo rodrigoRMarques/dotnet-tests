@@ -5,7 +5,7 @@ public class AzureService : IAzureService
     {
         _client = client;
     }
-    
+
     public void Login()
     {
         _client.PostAsync("https://login.microsoftonline.com", new StringContent("username=abc&password=123"));
