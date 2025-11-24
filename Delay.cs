@@ -7,9 +7,6 @@ public class Class
     {
         SaySomething();
         Console.WriteLine(result);
-        
-        Task.Run(async () => await SaySomething()).Wait();
-        Console.WriteLine(result);
     }
 
     static async Task<string> SaySomething()
