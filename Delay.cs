@@ -1,6 +1,5 @@
 public class Class
 {
-
     private static string result;
 
     public static void Main()
